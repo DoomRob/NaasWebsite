@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>Home</title> 
+       <link type="text/css" rel="stylesheet" href="CSS/style.css">
+       <meta charset="utf-8"/>
+    </head>
+    <body class="body">
+        <div class="page-container">
+        <h1>Welcome to Naas</h1>
+    <nav>
+        <ul class="navigation">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="tourguide.html">Tour Guide</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <form>
+            <input type="search" name="q" placeholder="Search">
+            <input type="submit" value="Enter">
+        </form>
+    </nav>
+    <h2>Contact Us</h2>
+    <main>
+        <form action=""> <!--A query form-->
+            <div class="form-control">
+                <label for="fullname">Name</label> <!--Enter your fullname-->
+                <input required id="fullname" type="text" name="fullname">
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label> <!--Enter your age-->
+                <input required id="age" type="number" name="age" min="1" max="150">
+            </div>
+            <div class="form-control"> <!--Enter your email-->
+                <label for="email">Email</label> 
+                <input required id="email" type="email" name="email address">
+            </div>
+            <div class="form-control">
+                <label for="address">Address</label>
+                <input required id="address" type="address" name="address">
+            </div>
+            <div class="form-control">
+                <label for="telephone">Telephone</label>
+                <input required id="telephone" type="number" name="telephone" min="10000000" max="9999999999">
+            </div>
+            <div class="form-control"> <!--Enter your age-->
+                <label for="query">Query</label>
+                <textarea id="query" name="query"></textarea>
+            </div>
+            <input type="Submit" Value="Send" /> 
+        </form>
+        <section>
+            <aside>
+                <p>For more details please go to Kildare County Council</p>
+                <p><img src="images/Kildare-County-Council.jpg" alt="Kildare-County-Council" width="150"></p>
+                <p>Address: Devoy Park, Naas, Co. Kildare, W91 X77F</p>
+                <p>Telephone Number: 045 980200</p>
+            </aside>
+        </section>
+        <footer>
+            <p>Contact Email: info@naas.ie</p>
+        </footer>
+        </div>
+    </main>
+    </body>
+</html>
